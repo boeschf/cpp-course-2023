@@ -1,6 +1,6 @@
 if (${CPP_COURSE_BUILD_SLIDES})
     add_marp_slides(03_01_data_oriented_design data_oriented_design.md)
-    add_marp_slides(03_01_data_oriented_design data_oriented_tips.md)
+    add_marp_slides(03_01_data_oriented_design_tips data_oriented_tips.md)
 endif()
 
 
@@ -22,3 +22,4 @@ add_executable(03_01_cache_false_sharing
 )
 
 add_subdirectory(code/nbody)
+
